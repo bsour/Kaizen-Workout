@@ -100,7 +100,7 @@ const MouseImageTrail = ({
 
       {emojis.map((emoji, index) => (
         <span
-          className="pointer-events-none absolute left-0 top-0 text-6xl" // Adjust size as needed
+          className="pointer-events-none absolute left-0 top-0 text-xl" // Adjust size as needed
           key={index}
           data-mouse-move-index={index}
         >

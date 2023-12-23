@@ -1,9 +1,9 @@
-import HeroSection from "../components/HeroSection"
 import { Example } from "../components/MouseImageTrail"
+import Navbar from "../components/Navbar"
 
 const HomePage = ({}) => {
   return <div>
-  
+    <Navbar />
     <Example />
  
   </div>
