@@ -1,0 +1,15 @@
+
+
+/* BUY ME A COFEE */
+/* Default size */
+.bmc-button img {
+  width: 180px;
+  height: auto;
+}
+
+/* Smaller size on smaller screens */
+@media (max-width: 600px) {
+  .bmc-button img {
+      width: 120px; /* Adjust this value as needed */
+  }
+}

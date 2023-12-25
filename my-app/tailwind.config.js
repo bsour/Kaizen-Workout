@@ -19,7 +19,7 @@ module.exports = {
           "700": "#b0fc04",
           "800": "#b0fc04",
           "900": "#b0fc04",
-          "950": "#b0fc04"   // Darkest
+          "950": "#8dcb02"   // Darkest
         }
         
       },
