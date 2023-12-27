@@ -3,18 +3,17 @@ const Pricing = ({}) => {
     <section class="bg-black dark:bg-gray-900">
       <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">
-            Designed for business teams like yours
+          <h2 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
+          Tailored Fitness Plans Just for You
           </h2>
           <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            Here at Flowbite we focus on markets where technology, innovation,
-            and capital can unlock long-term value and drive economic growth.
+          At Kaizen, we put your fitness goals front and center. Our app is designed to provide personalized workout plans, helping you achieve your fitness targets with precision and care.
           </p>
         </div>
         <div class="space-y-8 lg:grid lg:grid-cols-2 sm:gap-6 xl:gap-10 lg:space-y-0">
           {/* <!-- Pricing Card --> */}
           <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-            <h3 class="mb-4 text-2xl font-semibold">Kaizen</h3>
+            <h3 class="mb-4 text-2xl font-extrabold">Kaizen</h3>
             <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               Unlock Personalized Fitness with Kaizen's AI-Powered Workouts.
             </p>
@@ -124,7 +123,7 @@ const Pricing = ({}) => {
           </div>
           {/* <!-- Pricing Card --> */}
           <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-            <h3 class="mb-4 text-2xl font-semibold">Others</h3>
+            <h3 class="mb-4 text-2xl font-extrabold">Others</h3>
             <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               Best option for Exploring Workout Variety.
             </p>
