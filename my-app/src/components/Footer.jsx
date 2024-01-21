@@ -8,7 +8,7 @@ const Footer = ({ isBlack }) => {
       <div className="mx-auto max-w-screen-xl">
           <div className="md:flex md:justify-between items-center">
               <div className="mb-6 md:mb-0">
-                  <a href="https://flowbite.com" className="flex items-center">
+                  <a href="/" className="flex items-center">
                       <img
                           src="/Kaizen.png"
                           className="mr-3 h-6 sm:h-9"
@@ -18,7 +18,7 @@ const Footer = ({ isBlack }) => {
                   </a>
               </div>
               <div className={`text-center text-sm ${textColorClass} mt-2 md:mt-0`}>
-                  © 2024 <a href="https://flowbite.com" className="hover:underline">Kaizen™</a>. All Rights Reserved.
+                  © 2024 <a href="/" className="hover:underline">Kaizen™</a>. All Rights Reserved.
               </div>
           </div>
       </div>
