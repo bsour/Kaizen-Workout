@@ -112,6 +112,7 @@ const CalorieCalculator = () => {
               required
             />
           </div>
+          
           {/* Goal Weight */}
           <div className="w-full">
             <label

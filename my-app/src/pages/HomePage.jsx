@@ -7,6 +7,7 @@ import Reviews from "../components/Reviews"
 import Faq from "../components/Faq"
 import Footer from "../components/Footer"
 
+
 const HomePage = ({}) => {
   return <div>
     <Navbar />
