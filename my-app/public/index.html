@@ -37,6 +37,30 @@
         "script",
         "https://chimpstatic.com/mcjs-connected/js/users/aaeb6242bbd81adc3ff52b0c6/a6ec1cba0a7a9d0bd99b7d11e.js"
       );
+
+      function openSurveyMonkeyPopup() {
+        // Assuming the SurveyMonkey script initializes a function to open the popup
+        if (typeof smFunctionToOpenPopup !== "undefined") {
+          smFunctionToOpenPopup(); // Replace with the actual function to open the SurveyMonkey popup
+        } else {
+          console.warn("SurveyMonkey popup function is not defined.");
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var signUpButton = document.getElementById("signup-button");
+        if (signUpButton) {
+          signUpButton.addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default form submission
+            openSurveyMonkeyPopup();
+          });
+
+          // Show the SurveyMonkey popup every 5 seconds
+          setInterval(openSurveyMonkeyPopup, 5000);
+        } else {
+          console.error("Sign up button not found");
+        }
+      });
     </script>
   </head>
   <body>
