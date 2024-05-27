@@ -6,17 +6,17 @@ const Team = () => {
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            The Kaizen Journey
+            The Shinui Journey
           </h2>
           <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            Kaizen is not just a fitness platform; it's a manifestation of a
-            dream. Hi, I'am Sourabh Beniwal, a software engineer with a fiery
-            passion for fitness. My enthusiasm for bodybuilding, swimming, and
-            mountain biking led me to create Kaizen, a unique approach to
-            fitness that adapts to every individual's story. Fueled by the
-            desire for more than just standard fitness routines, I built Kaizen
-            to empower and inspire. Join me on this journey of health, strength,
-            and self-discovery.
+            Shinui is not just a fitness platform; it's a manifestation of a
+            dream. Hi, I'am Sourabh Beniwal, a software engineer with passion
+            for fitness. My enthusiasm for bodybuilding, swimming, and mountain
+            biking led me to create Shinui, a unique approach to fitness that
+            adapts to every individual's story. Fueled by the desire for more
+            than just standard fitness routines, I will build Shinui to empower and
+            inspire. Join me on this journey of health, strength, and
+            self-discovery.
           </p>
         </div>
         <div className="flex justify-center">
@@ -31,11 +31,11 @@ const Team = () => {
                 Sourabh Beniwal
               </h3>
               <span className="text-gray-500 dark:text-gray-400">
-                Creator of Kaizen
+                Creator of Shinui
               </span>
               <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
                 Driven by my love for fitness and technology, I invite you all
-                to experience the transformation that Kaizen offers. Your
+                to experience the transformation that Shinui will offer. Your
                 feedback fuels this journey, propelling me to greater heights.
                 Share your story with me.
               </p>

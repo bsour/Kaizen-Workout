@@ -13,6 +13,11 @@ const FAQ = () => {
 
   const faqData = [
     {
+      question: 'Is the app available yet? ',
+      answer:
+        'No, I am currently assessing market needs and user interest - the more the better. So, if you like the idea please share it with others.',
+    },
+    {
       question: 'How does Kaizen utilize AI in workout plans?',
       answer:
         'Kaizen uses cutting-edge AI algorithms to create highly personalized workout plans for you. When you complete our detailed personal questionnaire, the AI takes into account your goals, fitness level, dietary preferences, and more. It then generates a plan that is customized just for you, optimizing your workouts for maximum results.',

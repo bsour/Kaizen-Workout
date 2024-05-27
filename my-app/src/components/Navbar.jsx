@@ -18,7 +18,7 @@ const Navbar = () => {
               alt="Flowbite Logo"
             />
             <span class="self-center text-xl font-semibold whitespace-nowrap text-white">
-              Kaizen
+              SHINUI
             </span>
           </a>
           <div class="flex items-center lg:order-2">
