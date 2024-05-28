@@ -1,58 +1,55 @@
-# Kaizen AI
 
-Kaizen AI is a personal project that aims to elevate your fitness experience through a user-friendly platform. Unleash the power of personalized workout plans, intelligent data analysis, and insightful recommendations—all designed to empower you on your fitness journey.
+# SHINUI AI Guided Exercise and Nutrition
 
-## Key Features
+SHINUI is an AI-powered web application designed to help users track their fitness journey, monitor their exercise routines, and manage their nutritional intake. With intuitive data visualization tools and personalized recommendations, SHINUI empowers users to achieve their health and fitness goals effortlessly.
 
-### 1. Personalized Fitness Plans
-- Tailored workout plans that adapt to your goals, fitness levels, and preferences.
-- Dynamic adjustments to keep pace with your progress and evolving objectives.
+## Features
 
-### 2. Intelligent Data Analysis
-- Leverages pre-trained chatbots via Zapier for personalized insights.
-- Visualizes your fitness journey and provides actionable recommendations.
-
-### 3. Comprehensive Fitness Assessment
-- In-depth analysis of your fitness goals, current levels, and workout history.
-- Understand your exercise preferences, styles, and equipment access.
-
-### 4. Lifestyle Integration
-- Considers unique lifestyle factors, including work schedule and family commitments.
-- Customizes workout plans to seamlessly fit into your daily life.
-
-### 5. Knowledge Enrichment
-- Access educational content on exercise principles, workout styles, and nutrition.
-- Enhance your understanding of fitness for sustainable progress.
-
-### 6. User-Friendly Interface
-- Enjoy an intuitive design for a seamless user experience.
-- Accessible on various devices to accommodate your lifestyle.
-
-## Deployment
-
-The Kaizen AI platform is deployed and accessible at [https://kaizenai.netlify.app/](https://kaizenai.netlify.app/). Join us on this fitness journey by signing up and unlocking the potential for a healthier you.
+- **Weight Tracker**: Track your weight progress over time with detailed charts and graphs.
+- **Calorie Tracker**: Monitor your daily caloric intake and expenditure with detailed visualizations.
+- **One Rep Max Tracker**: Track your progress on various lifts with detailed one-rep max charts.
+- **Body Composition**: Track your body fat percentage and lean muscle mass with detailed visualizations.
+- **Workout Planner**: Plan and track your workouts with detailed schedules and metrics.
+- **Workout Progress**: Track your progress on various lifts over time with detailed graphs.
 
 ## Technologies Used
 
-- **Frontend**: Built with React.js for a responsive and interactive interface.
-- **Chatbot Integration**: Utilizes Zapier's free pre-trained chatbot for intelligent interactions.
-- **Deployment**: Hosted on Netlify for easy access and scalability.
+- **React.js**: A JavaScript library for building user interfaces.
+- **Chart.js**: A powerful open-source data visualization library for creating responsive, beautiful charts and graphs.
+- **react-chartjs-2**: A React wrapper for the Chart.js library.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 
 ## Getting Started
 
-To explore Kaizen AI:
+To run the SHINUI application locally, follow these steps:
 
-1. Visit [https://kaizenai.netlify.app/](https://kaizenai.netlify.app/).
-2. Sign up and customize your fitness goals.
-3. Interact with the pre-trained chatbot for personalized recommendations.
+1. Clone the repository
+
+2. Install the dependencies:
+
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```
+   npm start
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000` to see the SHINUI application in action.
 
 ## Contributing
 
-Kaizen AI is a personal project, and contributions are not currently accepted. Feel free to explore, provide feedback, and enjoy the benefits of personalized fitness planning.
+We welcome contributions from the community! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 
 ## License
 
-Kaizen AI is a personal project and is free to use. There are no backend services or AI costs associated. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the [MIT License](LICENSE).
 
----
+## Acknowledgments
 
+- [React.js](https://reactjs.org/)
+- [Chart.js](https://www.chartjs.org/)
+- [react-chartjs-2](https://react-chartjs-2.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
