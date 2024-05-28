@@ -34,39 +34,67 @@ const HeroSection = () => {
           Revolutionize Your Fitness Journey. Tailored, science-based workouts &
           nutrition for beginners to pros, ensuring your best progress.
         </p>
-        <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 justify-center">
-          <form
-            id="signup-form autocomplete"
-            className="flex flex-col sm:flex-row sm:space-x-4 items-center w-full sm:w-4/5 md:w-3/4 lg:w-2/3"
-          >
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              className="w-full sm:w-4/5 md:w-3/4 lg:w-3/5 py-3 px-5 mb-4 sm:mb-0 text-base text-black rounded-lg border border-gray-300 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-              placeholder="Enter your email"
-            />
-            <button
-              type="submit"
-              id="signup-button"
-              className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+        <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-start sm:space-y-0 sm:space-x-4 justify-start">
+          <div id="mc_embed_shell" className="w-full">
+            <div
+              id="mc_embed_signup"
+              className="w-full max-w-3xl mx-auto flex justify-center"
             >
-              Sign up
-              <svg
-                className="ml-2 -mr-1 w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
+              <form
+                action="https://app.us17.list-manage.com/subscribe/post?u=aaeb6242bbd81adc3ff52b0c6&amp;id=80f5a584ea&amp;f_id=0084f4e2f0"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                className="flex flex-col items-center w-full"
+                target="_blank"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
-            </button>
-          </form>
+                <div
+                  id="mc_embed_signup_scroll"
+                  className="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 sm:flex sm:space-x-4"
+                >
+                  <div className="mc-field-group w-full sm:mb-0 mb-4">
+                    <input
+                      type="email"
+                      name="EMAIL"
+                      className="w-full py-3 px-5 text-base text-black rounded-lg border border-gray-300 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 required email"
+                      id="mce-EMAIL"
+                      required
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    style={{ position: "absolute", left: "-5000px" }}
+                  >
+                    <input
+                      type="text"
+                      name="b_aaeb6242bbd81adc3ff52b0c6_80f5a584ea"
+                      tabIndex="-1"
+                      value=""
+                    />
+                  </div>
+                  <div className="optionalParent sm:w-auto w-full">
+                    <div className="clear foot w-full">
+                      <input
+                        type="submit"
+                        name="subscribe"
+                        id="mc-embedded-subscribe"
+                        className="w-full sm:w-auto inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                        value="Sign Me Up"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <script
+              type="text/javascript"
+              src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+            ></script>
+            <script type="text/javascript">
+              {`(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);`}
+            </script>
+          </div>
         </div>
         <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
           <span className="font-semibold text-gray-400 uppercase">

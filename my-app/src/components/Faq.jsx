@@ -18,24 +18,24 @@ const FAQ = () => {
         'No, I am currently assessing market needs and user interest - the more the better. So, if you like the idea please share it with others.',
     },
     {
-      question: 'How does Kaizen utilize AI in workout plans?',
+      question: 'How does Shinui utilize AI in workout plans?',
       answer:
-        'Kaizen uses cutting-edge AI algorithms to create highly personalized workout plans for you. When you complete our detailed personal questionnaire, the AI takes into account your goals, fitness level, dietary preferences, and more. It then generates a plan that is customized just for you, optimizing your workouts for maximum results.',
+        'Shinui uses cutting-edge AI algorithms to create highly personalized workout plans for you. When you complete our detailed personal questionnaire, the AI takes into account your goals, fitness level, dietary preferences, and more. It then generates a plan that is customized just for you, optimizing your workouts for maximum results.',
     },
     {
-      question: 'Is Kaizen\'s approach science-backed?',
+      question: 'Is Shinui\'s approach science-backed?',
       answer:
-        'Absolutely! Kaizen\'s workout plans are not just AI-generated; they are also grounded in the latest exercise and nutrition science. Our team of experts ensures that every plan is fact-checked and adheres to the most up-to-date research in the field.',
+        'Absolutely! Shinui\'s workout plans are not just AI-generated; they are also grounded in the latest exercise and nutrition science. Our team of experts ensures that every plan is fact-checked and adheres to the most up-to-date research in the field.',
     },
     {
-      question: 'How can I trust Kaizen for my fitness journey?',
+      question: 'How can I trust Shinui for my fitness journey?',
       answer:
-        'Kaizen takes your fitness journey seriously. We prioritize accuracy, personalization, and science-backed methods. Our AI algorithms continuously learn and adapt to provide you with the best possible experience. We are committed to helping you achieve your fitness goals safely and effectively.',
+        'Shinui takes your fitness journey seriously. We prioritize accuracy, personalization, and science-backed methods. Our AI algorithms continuously learn and adapt to provide you with the best possible experience. We are committed to helping you achieve your fitness goals safely and effectively.',
     },
     {
-      question: 'Do I need any special equipment for Kaizen workouts?',
+      question: 'Do I need any special equipment for Shinui workouts?',
       answer:
-        'Kaizen designs workouts that can be tailored to your available equipment, whether you have a fully equipped gym or just a set of dumbbells at home. During the questionnaire, you can specify your equipment, and the AI will create workouts that suit your resources.',
+        'Shinui designs workouts that can be tailored to your available equipment, whether you have a fully equipped gym or just a set of dumbbells at home. During the questionnaire, you can specify your equipment, and the AI will create workouts that suit your resources.',
     },
   ];
 

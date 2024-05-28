@@ -14,11 +14,11 @@ const Footer = ({ isBlack }) => {
                           className="mr-3 h-6 sm:h-9"
                           alt="Kaizen Logo"
                       />
-                      <span className={`self-center text-2xl font-semibold whitespace-nowrap ${textColorClass}`}>Kaizen</span>
+                      <span className={`self-center text-2xl font-semibold whitespace-nowrap ${textColorClass}`}>SHINUI</span>
                   </a>
               </div>
               <div className={`text-center text-sm ${textColorClass} mt-2 md:mt-0`}>
-                  © 2024 <a href="/" className="hover:underline">Kaizen™</a>. All Rights Reserved.
+                  © 2024 <a href="/" className="hover:underline">SHINUI™</a>. All Rights Reserved.
               </div>
           </div>
       </div>
